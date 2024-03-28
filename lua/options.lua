@@ -7,7 +7,7 @@
 vim.opt.number = true
 -- You can also add relative line numbers, for help with jumping.
 --  Experiment for yourself to see if you like it!
--- vim.opt.relativenumber = true
+vim.opt.relativenumber = true
 
 -- Enable mouse mode, can be useful for resizing splits for example!
 vim.opt.mouse = 'a'
@@ -29,6 +29,8 @@ vim.opt.undofile = true
 -- Case-insensitive searching UNLESS \C or capital in search
 vim.opt.ignorecase = true
 vim.opt.smartcase = true
+
+vim.opt.colorcolumn = '80'
 
 -- Keep signcolumn on by default
 vim.opt.signcolumn = 'yes'
